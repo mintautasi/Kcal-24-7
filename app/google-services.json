@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1082433930552",
+    "firebase_url": "https://kursinis-kcal-24-7-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kursinis-kcal-24-7",
+    "storage_bucket": "kursinis-kcal-24-7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082433930552:android:0daccab41f63f759986dcd",
+        "android_client_info": {
+          "package_name": "com.example.kursinis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082433930552-e3ub204jg3pcd0afr66jo8mq5u2fvq58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxB35f6rQRLgnFbQvt66vZCJ2YxYhImlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082433930552-e3ub204jg3pcd0afr66jo8mq5u2fvq58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/kmi_btn"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:text="KMI skaičiuoklė"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logdata_btn" />
+
+    <Button
+        android:id="@+id/datasearch_btn"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="112dp"
+        android:text="Maisto duomenų paieška"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/logdata_btn"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:text="Kalorijų registracija"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datasearch_btn" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="81dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kcal247" />
+
+    <CalendarView
+        android:id="@+id/calendarView3"
+        android:layout_width="181dp"
+        android:layout_height="309dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_select_date"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="181dp"
+        android:layout_height="63dp"
+        android:padding="10dp"
+        android:text="Pasirinkti datą"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
